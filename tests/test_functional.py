@@ -76,7 +76,7 @@ def test_verify_patient_name(setup_driver):
         test_obj.yakshaAssert("test_verify_patient_name", False, "Functional")
         print("test_verify_patient_name = Failed")
         assert False
-
+    assert passed
 
 @pytest.mark.order(2)
 def test_verify_active_counter_message_in_dispensary(setup_driver):
@@ -103,7 +103,7 @@ def test_verify_active_counter_message_in_dispensary(setup_driver):
         test_obj.yakshaAssert("test_verify_active_counter_message_in_dispensary", False, "Functional")
         print("test_verify_active_counter_message_in_dispensary = Failed")
         assert False
-
+    assert passed
 
 @pytest.mark.order(3)
 def test_verify_purchase_request_list_elements(setup_driver):
@@ -136,7 +136,7 @@ def test_verify_purchase_request_list_elements(setup_driver):
         test_obj.yakshaAssert("test_verify_purchase_request_list_elements", False, "Functional")
         print("test_verify_purchase_request_list_elements = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(4)
 def test_verify_error_message(setup_driver):
     """
@@ -171,7 +171,7 @@ def test_verify_error_message(setup_driver):
         test_obj.yakshaAssert("test_verify_error_message", False, "Functional")
         print("test_verify_error_message = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(5)
 def test_perform_radiology_request_and_handle_alert(setup_driver):
     """
@@ -209,7 +209,7 @@ def test_perform_radiology_request_and_handle_alert(setup_driver):
         test_obj.yakshaAssert("test_perform_radiology_request_and_handle_alert", False, "Functional")
         print("test_perform_radiology_request_and_handle_alert = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(6)
 def test_search_and_verify_patients(setup_driver):
     """
@@ -244,7 +244,7 @@ def test_search_and_verify_patients(setup_driver):
         test_obj.yakshaAssert("test_search_and_verify_patients", False, "Functional")
         print("test_search_and_verify_patients = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(7)
 def test_verify_notice_message_after_entering_incorrect_filters(setup_driver):
     """
@@ -275,7 +275,7 @@ def test_verify_notice_message_after_entering_incorrect_filters(setup_driver):
         test_obj.yakshaAssert("test_verify_notice_message_after_entering_incorrect_filter", False, "Functional")
         print("test_verify_notice_message_after_entering_incorrect_filter = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(8)
 def test_verify_maternity_allowance_report(setup_driver):
     """
@@ -308,7 +308,7 @@ def test_verify_maternity_allowance_report(setup_driver):
         test_obj.yakshaAssert("test_verify_maternity_allowance_report", False, "Functional")
         print("test_verify_maternity_allowance_report = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(9)
 def test_verify_occupied_bed_edit(setup_driver):
     """
@@ -340,7 +340,7 @@ def test_verify_occupied_bed_edit(setup_driver):
         test_obj.yakshaAssert("test_verify_occupied_bed_edit", False, "Functional")
         print("test_verify_occupied_bed_edit = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(10)
 def test_activate_counter_and_select_sale(setup_driver):
     """
@@ -371,7 +371,7 @@ def test_activate_counter_and_select_sale(setup_driver):
         test_obj.yakshaAssert("test_activate_counter_and_select_sale", False, "Functional")
         print("test_activate_counter_and_select_sale = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(11)
 def test_verify_ot_booking(setup_driver):
     """
@@ -403,7 +403,7 @@ def test_verify_ot_booking(setup_driver):
         test_obj.yakshaAssert("test_verify_ot_booking", False, "Functional")
         print("test_verify_ot_booking = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(12)
 def test_load_daily_transactions_report(setup_driver):
     """
@@ -435,7 +435,7 @@ def test_load_daily_transactions_report(setup_driver):
         test_obj.yakshaAssert("test_load_daily_transactions_report", False, "Functional")
         print("test_load_daily_transactions_report = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(13)
 def test_search_patient_and_view_overview(setup_driver):
     """
@@ -468,7 +468,7 @@ def test_search_patient_and_view_overview(setup_driver):
         test_obj.yakshaAssert("test_search_patient_and_view_overview", False, "Functional")
         print("test_search_patient_and_view_overview = Failed")
         assert False
-
+    assert passed
 @pytest.mark.order(14)
 def test_filter_sample_collections(setup_driver):
     """
@@ -503,7 +503,7 @@ def test_filter_sample_collections(setup_driver):
         print("test_filter_sample_collections = Failed")
         assert False
 
-
+    assert passed
 """------------------------------------------------- Helper Method------------------------------------------------------------"""
 
 
